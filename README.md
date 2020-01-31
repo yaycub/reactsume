@@ -1,6 +1,6 @@
-# Resume.js
+# Reactsume.js
 
-Resume built with React.js and @react-pdf/renderer npm.
+A Professional Resume built with React.js and @react-pdf/renderer npm.
 
 
 
