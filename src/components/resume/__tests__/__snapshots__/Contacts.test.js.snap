@@ -2,6 +2,9 @@
 
 exports[`Contacts Component can render Contacts 1`] = `
 <ul>
+  <h3>
+    Contact Info
+  </h3>
   <li>
     Phone Number: 
     (555)555-5555

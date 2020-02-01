@@ -2,7 +2,12 @@
 
 exports[`TechStack component can render a TechStack 1`] = `
 <ul>
-  Languages:
+  <h3>
+    Tech Stack
+  </h3>
+  <h4>
+    Languages:
+  </h4>
   <li
     key="0+HTML/CSS"
   >
@@ -24,7 +29,9 @@ exports[`TechStack component can render a TechStack 1`] = `
       item="SQL"
     />
   </li>
-  Front-end:
+  <h4>
+    Front-end:
+  </h4>
   <li
     key="0+React.js"
   >
@@ -39,7 +46,9 @@ exports[`TechStack component can render a TechStack 1`] = `
       item="Redux"
     />
   </li>
-  Back-end:
+  <h4>
+    Back-end:
+  </h4>
   <li
     key="0+Node.js"
   >
@@ -61,7 +70,9 @@ exports[`TechStack component can render a TechStack 1`] = `
       item="Mongoose"
     />
   </li>
-  Databases:
+  <h4>
+    Databases:
+  </h4>
   <li
     key="0+PostgreSQL"
   >

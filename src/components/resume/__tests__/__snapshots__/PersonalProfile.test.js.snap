@@ -2,6 +2,9 @@
 
 exports[`PersonalProfile Component can render a PersonalProfile 1`] = `
 <p>
+  <h3>
+    Summary
+  </h3>
   This is my profile
 </p>
 `;

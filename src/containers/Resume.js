@@ -10,7 +10,7 @@ import Works from '../components/resume/Works.js';
 export default class Resume extends Component{
 
   render(){
-    const { header, contacts, techStack, works } = data;
+    const { header, contacts, techStack } = data;
 
     return (
       <>

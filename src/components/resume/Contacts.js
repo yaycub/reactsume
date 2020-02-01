@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 const Contacts = ({ phoneNumber, email, github, linkedIn }) => {
   return (
     <ul>
+      <h3>Contact Info</h3>
       <li>Phone Number: {phoneNumber}</li>
       <li>Email: {email}</li>
       <li>Github: {github}</li>

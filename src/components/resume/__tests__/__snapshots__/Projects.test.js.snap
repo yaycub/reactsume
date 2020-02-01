@@ -2,6 +2,9 @@
 
 exports[`Projects Component can render Projects 1`] = `
 <ul>
+  <h3>
+    Projects
+  </h3>
   <li
     key="0"
   >

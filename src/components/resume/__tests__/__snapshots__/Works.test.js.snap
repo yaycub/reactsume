@@ -2,6 +2,9 @@
 
 exports[`Works Component can render Works 1`] = `
 <ul>
+  <h3>
+    Professional History
+  </h3>
   <li
     key="0"
   >

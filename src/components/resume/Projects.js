@@ -13,6 +13,9 @@ const Projects = ({ projects }) => {
 
   return (
     <ul>
+      <h3>
+      Projects
+      </h3>
       {projectsElement}
     </ul>
   );

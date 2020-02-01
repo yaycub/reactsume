@@ -10,13 +10,14 @@ const TechStack = ({ languages, frontEnd, backEnd, dataBases }) => {
 
   return (
     <ul>
-      Languages:
+      <h3>Tech Stack</h3>
+      <h4>Languages:</h4>
       {languageEls}
-      Front-end:
+      <h4>Front-end:</h4>
       {frontEndEls}
-      Back-end:
+      <h4>Back-end:</h4>
       {backEndEls}
-      Databases:
+      <h4>Databases:</h4>
       {dataBasesEls}
     </ul>
   );

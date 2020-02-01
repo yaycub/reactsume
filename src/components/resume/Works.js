@@ -13,6 +13,7 @@ const Works = ({ work }) => {
 
   return (
     <ul>
+      <h3>Professional History</h3>
       {workElements}
     </ul>
   );
