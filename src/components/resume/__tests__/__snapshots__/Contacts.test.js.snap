@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contacts Component can render Contacts 1`] = `
+<ul>
+  <li>
+    Phone Number: 
+    (555)555-5555
+  </li>
+  <li>
+    Email: 
+    hellothere@hi.com
+  </li>
+  <li>
+    Github: 
+    /yaycub
+  </li>
+  <li>
+    LinkedIn: 
+    /yaycub
+  </li>
+</ul>
+`;
