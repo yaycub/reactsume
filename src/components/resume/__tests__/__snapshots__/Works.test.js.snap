@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Works Component can render Works 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <WorkItem
+      business="Airbnb"
+      didWhat={
+        Array [
+          "Identified impact of bugs using SQL queries and notified engineering via Jira",
+          "Built a partnership between Airbnb Collections and Airbnb Payments CS",
+          "Trained multiple entry level associates on the Payments CS team & partner CS",
+          "Consistent top performer on the team",
+        ]
+      }
+      titleWithDates="Senior Payments Specialist | May 2014 - April 2019"
+    />
+  </li>
+  <li
+    key="1"
+  >
+    <WorkItem
+      business="Capital One"
+      didWhat={
+        Array [
+          "Managed a customer base to help them be up-to-date on credit payments",
+          "QA for new hires and provided coaching on soft skills",
+          "Provided and visualized data on successful attempts on collecting debt to help new hires with prioritizing workload",
+        ]
+      }
+      titleWithDates="Risk Associate | September 2009 - December 2013"
+    />
+  </li>
+</ul>
+`;

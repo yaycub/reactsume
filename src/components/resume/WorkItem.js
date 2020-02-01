@@ -12,7 +12,7 @@ const WorkItem = ({ business, titleWithDates, didWhat }) => {
 
   return (
     <section>
-      <p>{business}</p>
+      <h4>{business}</h4>
       <p>{titleWithDates}</p>
       <ul>
         {didWhatEls}

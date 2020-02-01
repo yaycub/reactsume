@@ -2,9 +2,9 @@
 
 exports[`WorkItem Component can render a WorkItem 1`] = `
 <section>
-  <p>
+  <h4>
     Airbnb
-  </p>
+  </h4>
   <p>
     Senior Payments Specialist | May 2014 - April 2019
   </p>
