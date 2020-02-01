@@ -50,7 +50,7 @@
    {
     "title": "FrontPage",
     "tech": "Tech: Postgres, Node.js, JavaScript, Superagent, QUnit",
-    "description": "Tech: Postgres, Node.js, JavaScript, Superagent, QUnit"
+    "description": "This was a group project with the idea of making news more palatable. The news was pulled from the News API and presented to the user in a card stack that was swipeable. This involved user authentication and would store users saved articles within a Postgres database.  My primary contribution was creating the Node.js server using Express CRUD routes and a PostgreSQL Database."
   },
   {
     "title": "Offbeat",

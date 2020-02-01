@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectItem component can render a ProjectItem 1`] = `
+<section>
+  <h4>
+    my title
+  </h4>
+  <p>
+    some tech
+  </p>
+  <p>
+    this is a project
+  </p>
+</section>
+`;
