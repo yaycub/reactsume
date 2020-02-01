@@ -4,6 +4,7 @@ import Header from '../components/resume/Header.js';
 import PersonalProfile from '../components/resume/PersonalProfile.js';
 import Contacts from '../components/resume/Contacts.js';
 import TechStack from '../components/resume/TechStack.js';
+import Projects from '../components/resume/Projects.js';
 
 export default class Resume extends Component{
 
@@ -17,6 +18,9 @@ export default class Resume extends Component{
           <PersonalProfile {...data} />
           <Contacts {...contacts} />
           <TechStack {...techStack} />
+        </section>
+        <section>
+          <Projects {...data} />
         </section>
       </>
     );

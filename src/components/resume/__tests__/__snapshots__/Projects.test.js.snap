@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects Component can render Projects 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <ProjectItem
+      description="Used a Markov Chain to creative a predictive text Twitter bot that used the material of numerous notable authors found in the Creative Commons. This was a group effort in which we mob programmed a majority of the app. My primarily contributions was working on the Mongoose Models/Methods and Twit NPM."
+      tech="Node.js, Express, MongoDB, Mongoose, Jest, Markov"
+      title="Markov Twain"
+    />
+  </li>
+  <li
+    key="1"
+  >
+    <ProjectItem
+      description="This was a group project with the idea of making news more palatable. The news was pulled from the News API and presented to the user in a card stack that was swipeable. This involved user authentication and would store users saved articles within a Postgres database.  My primary contribution was creating the Node.js server using Express CRUD routes and a PostgreSQL Database."
+      tech="Tech: Postgres, Node.js, JavaScript, Superagent, QUnit"
+      title="FrontPage"
+    />
+  </li>
+  <li
+    key="2"
+  >
+    <ProjectItem
+      description="This was a group project that was created entirely in Vanilla JavaScript. The product was a music sampler and sequencer. With no database, we utilized localStorage to save a user's sequences. My primary contribution was creating the Vanilla JS sequencer array loop that would play an audio sample on-time with the BPM."
+      tech="Tech: JavaScript, HTML, CSS, QUnit"
+      title="Offbeat"
+    />
+  </li>
+</ul>
+`;
