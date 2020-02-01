@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import WorkItem from './WorkItem';
+import styles from './styles/Works.css';
 
 const Works = ({ work }) => {
   const workElements = work.map((item, i) => {
@@ -12,7 +13,7 @@ const Works = ({ work }) => {
   });
 
   return (
-    <ul>
+    <ul className={styles.Works}>
       <h3>Professional History</h3>
       {workElements}
     </ul>
