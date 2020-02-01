@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Schools Component can render Schools 1`] = `
+<ul>
+  <h3>
+    Academic Background
+  </h3>
+  <li
+    key="0"
+  >
+    <h4>
+      Alchemy Code Lab
+    </h4>
+    <p>
+      Full-Stack Developer
+    </p>
+  </li>
+  <li
+    key="1"
+  >
+    <h4>
+      Hillsborough Community College
+    </h4>
+    <p>
+      AA Engineering
+    </p>
+  </li>
+</ul>
+`;

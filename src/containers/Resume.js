@@ -6,6 +6,7 @@ import Contacts from '../components/resume/Contacts.js';
 import TechStack from '../components/resume/TechStack.js';
 import Projects from '../components/resume/Projects.js';
 import Works from '../components/resume/Works.js';
+import Schools from '../components/Schools.js';
 
 export default class Resume extends Component{
 
@@ -23,6 +24,7 @@ export default class Resume extends Component{
         <section>
           <Projects {...data} />
           <Works {...data} />
+          <Schools {...data} />
         </section>
       </>
     );

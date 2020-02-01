@@ -3,10 +3,12 @@ import PropTypes from 'prop-types';
 
 const PersonalProfile = ({ personalProfile }) => {
   return (
-    <p>
+    <>
       <h3>Summary</h3>
-      {personalProfile}
-    </p>
+      <p>
+        {personalProfile}
+      </p>
+    </>
   );
 };
 
