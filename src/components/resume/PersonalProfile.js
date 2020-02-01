@@ -1,14 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './styles/PersonalProfile.css';
 
 const PersonalProfile = ({ personalProfile }) => {
   return (
-    <>
+    <div className={styles.Profile}>
       <h3>Summary</h3>
       <p>
         {personalProfile}
       </p>
-    </>
+    </div>
   );
 };
 
