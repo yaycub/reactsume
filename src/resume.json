@@ -1,0 +1,92 @@
+{
+ "header": {
+   "name":"Jacob Harrington",
+   "title":"Software Developer"
+ },
+ "personalProfile":"Software Developer with a passion for creative apps and community.",
+ "contacts":{
+   "phoneNumber":"(555)555-5555",
+   "email":"hellothere@hi.com",
+   "github":"/yaycub",
+   "linkedIn":"/yaycub"
+ },
+ "techStack":{
+   "languages":[
+     "HTML/CSS",
+     "JavaScript",
+     "SQL"
+   ],
+   "frontEnd":[
+     "React.js",
+     "Redux"
+   ],
+   "backEnd":[
+     "Node.js",
+     "Express",
+     "Mongoose"
+   ],
+   "dataBases":[
+    "PostgreSQL",
+    "MongoDB"
+   ],
+   "testing":[
+     "Jest",
+     "QUnit",
+     "Enzyme",
+     "TDD"
+   ],
+   "tools":[
+     "Heroku",
+     "Github",
+     "Webpack"
+   ]
+ },
+ "projects":[
+   {
+     "title": "Markov Twain",
+     "tech": "Node.js, Express, MongoDB, Mongoose, Jest, Markov",
+     "description": "Used a Markov Chain to creative a predictive text Twitter bot that used the material of numerous notable authors found in the Creative Commons. This was a group effort in which we mob programmed a majority of the app. My primarily contributions was working on the Mongoose Models/Methods and Twit NPM."
+   },
+   {
+    "title": "FrontPage",
+    "tech": "Tech: Postgres, Node.js, JavaScript, Superagent, QUnit",
+    "description": "Tech: Postgres, Node.js, JavaScript, Superagent, QUnit"
+  },
+  {
+    "title": "Offbeat",
+    "tech": "Tech: JavaScript, HTML, CSS, QUnit",
+    "description": "This was a group project that was created entirely in Vanilla JavaScript. The product was a music sampler and sequencer. With no database, we utilized localStorage to save a user's sequences. My primary contribution was creating the Vanilla JS sequencer array loop that would play an audio sample on-time with the BPM."
+  }
+ ],
+ "work":[
+   {
+     "business": "Airbnb",
+     "titleWithDates": "Senior Payments Specialist | May 2014 - April 2019",
+     "didWhat": [
+       "Identified impact of bugs using SQL queries and notified engineering via Jira",
+       "Built a partnership between Airbnb Collections and Airbnb Payments CS",
+       "Trained multiple entry level associates on the Payments CS team & partner CS",
+       "Consistent top performer on the team"
+     ]
+   },
+   {
+    "business": "Capital One",
+    "titleWithDates": "Risk Associate | September 2009 - December 2013",
+    "didWhat": [
+      "Managed a customer base to help them be up-to-date on credit payments",
+      "QA for new hires and provided coaching on soft skills",
+      "Provided and visualized data on successful attempts on collecting debt to help new hires with prioritizing workload"
+    ]
+  }
+ ],
+ "school":[
+    {
+     "name": "Alchemy Code Lab",
+     "cert": "Full-Stack Developer"
+    },
+    {
+      "name": "Hillsborough Community College",
+      "cert": "AA Engineering"
+    }
+ ]
+}
