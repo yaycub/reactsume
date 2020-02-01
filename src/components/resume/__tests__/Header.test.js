@@ -4,7 +4,7 @@ import Header from '../Header';
 
 describe('Header Component', () =>{
   it('can render a header', () => {
-    const wrapper = shallow(<Header name="Jacob" title="dev" />);
+    const wrapper = shallow(<Header />);
     expect(wrapper).toMatchSnapshot();
   });
 });

@@ -3,10 +3,10 @@
 exports[`Header Component can render a header 1`] = `
 <header>
   <h1>
-    Jacob
+    Cool Person
   </h1>
   <h2>
-    dev
+    Super
   </h2>
 </header>
 `;

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Header = ({ name, title }) => {
+const Header = ({ name = 'Cool Person', title = 'Super' }) => {
   return (
     <header>
       <h1>{name}</h1>
@@ -11,8 +11,8 @@ const Header = ({ name, title }) => {
 };
 
 Header.propTypes = {
-  name: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired
+  name: PropTypes.string,
+  title: PropTypes.string
 };
 
 export default Header;
