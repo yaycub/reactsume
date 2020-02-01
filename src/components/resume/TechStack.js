@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import TechStackItem from './TechStackItem';
+import styles from './styles/TechStack.css';
 
 const TechStack = ({ languages, frontEnd, backEnd, dataBases }) => {
   const languageEls = techStackElCreator(languages);
@@ -9,7 +10,7 @@ const TechStack = ({ languages, frontEnd, backEnd, dataBases }) => {
   const dataBasesEls = techStackElCreator(dataBases);
 
   return (
-    <ul>
+    <ul className={styles.TechStack}>
       <h3>Tech Stack</h3>
       <h4>Languages:</h4>
       {languageEls}
