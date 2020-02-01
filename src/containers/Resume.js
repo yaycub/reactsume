@@ -3,11 +3,12 @@ import data from '../resume.json';
 import Header from '../components/resume/Header.js';
 import PersonalProfile from '../components/resume/PersonalProfile.js';
 import Contacts from '../components/resume/Contacts.js';
+import TechStack from '../components/resume/TechStack.js';
 
 export default class Resume extends Component{
 
   render(){
-    const { header, contacts } = data;
+    const { header, contacts, techStack } = data;
 
     return (
       <>
@@ -15,6 +16,7 @@ export default class Resume extends Component{
         <section>
           <PersonalProfile {...data} />
           <Contacts {...contacts} />
+          <TechStack {...techStack} />
         </section>
       </>
     );
