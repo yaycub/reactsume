@@ -1,0 +1,25 @@
+.Article{
+  margin: 0 auto;
+}
+
+.Main{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.sectionOne{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  border: 5px solid black;
+  height: 80vh;
+  padding: 15px;
+}
+
+.sectionTwo{
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  padding: 15px;
+}
