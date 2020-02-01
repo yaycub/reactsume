@@ -6,19 +6,31 @@ exports[`Contacts Component can render Contacts 1`] = `
     Contact Info
   </h3>
   <li>
-    Phone Number: 
+    <span>
+      Phone Number:
+    </span>
+     
     (555)555-5555
   </li>
   <li>
-    Email: 
+    <span>
+      Email:
+    </span>
+     
     hellothere@hi.com
   </li>
   <li>
-    Github: 
+    <span>
+      Github:
+    </span>
+     
     /yaycub
   </li>
   <li>
-    LinkedIn: 
+    <span>
+      LinkedIn:
+    </span>
+     
     /yaycub
   </li>
 </ul>

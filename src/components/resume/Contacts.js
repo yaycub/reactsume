@@ -1,14 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './styles/Contacts.css';
 
 const Contacts = ({ phoneNumber, email, github, linkedIn }) => {
   return (
-    <ul>
+    <ul className={styles.Contacts}>
       <h3>Contact Info</h3>
-      <li>Phone Number: {phoneNumber}</li>
-      <li>Email: {email}</li>
-      <li>Github: {github}</li>
-      <li>LinkedIn: {linkedIn}</li>
+      <li><span>Phone Number:</span> {phoneNumber}</li>
+      <li><span>Email:</span> {email}</li>
+      <li><span>Github:</span> {github}</li>
+      <li><span>LinkedIn:</span> {linkedIn}</li>
     </ul>
   );
 };
