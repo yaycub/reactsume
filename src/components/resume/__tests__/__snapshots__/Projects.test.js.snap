@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Projects Component can render Projects 1`] = `
-<ul>
+<ul
+  className="Projects"
+>
   <h3>
     Projects
   </h3>

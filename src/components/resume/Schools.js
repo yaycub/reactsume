@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './styles/Schools.css';
 
 const Schools = ({ school }) => {
   const schoolElements = school.map((item, i) => {
@@ -12,7 +13,7 @@ const Schools = ({ school }) => {
   });
 
   return (
-    <ul>
+    <ul className={styles.Schools}>
       <h3>Academic Background</h3>
       {schoolElements}
     </ul>

@@ -6,7 +6,7 @@ import Contacts from '../components/resume/Contacts.js';
 import TechStack from '../components/resume/TechStack.js';
 import Projects from '../components/resume/Projects.js';
 import Works from '../components/resume/Works.js';
-import Schools from '../components/Schools.js';
+import Schools from '../components/resume/Schools.js';
 import styles from './Resume.css';
 
 export default class Resume extends Component{

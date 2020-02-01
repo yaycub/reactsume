@@ -1,12 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`PersonalProfile Component can render a PersonalProfile 1`] = `
-<Fragment>
+<div
+  className="Profile"
+>
   <h3>
     Summary
   </h3>
   <p>
     This is my profile
   </p>
-</Fragment>
+</div>
 `;

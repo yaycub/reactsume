@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import data from '../../../resume.json';
-import Schools from '../../Schools.js';
+import Schools from '../Schools';
 
 describe('Schools Component', () => {
   it('can render Schools', () => {

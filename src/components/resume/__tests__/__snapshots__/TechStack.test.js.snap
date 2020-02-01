@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`TechStack component can render a TechStack 1`] = `
-<ul>
+<ul
+  className="TechStack"
+>
   <h3>
     Tech Stack
   </h3>
